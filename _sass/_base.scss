@@ -18,6 +18,15 @@ h6 {
   font-weight: 700;
 }
 
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.5px;
+} 
+
 a {
   color: darken($theme-color, 15%);
   &:hover {
@@ -45,7 +54,7 @@ p {
 
 .sidebar-wrapper {
   grid-column: span 3;
-  order: 2;
+  order: 0;
   background: $theme-color;
   color: #fff;
   a {
@@ -99,7 +108,7 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
+    padding: 20px;
   }
   .container-block-title {
     text-transform: uppercase;
