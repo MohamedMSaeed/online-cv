@@ -17,7 +17,7 @@ sidebar:
     phone: 00201097160114
     # timezone: America/Cancun Timezone
     citizenship:
-    website: mohamedmsaeed.medium.com/ #do not add http://
+    website: mohamedmsaeed.medium.com #do not add http://
     linkedin: mohamedmsaeed
     xing:
     github: mohamedmsaeed
@@ -78,19 +78,29 @@ experiences:
           - Developed a tool that provision test/demo environments on-demand easily with one command, with all needed apps installed.
           - Implementing a centralized logging solution to collect acceptance test logs.
       - role: SRE
-        time: Apr 2020 - Jun 2022
-        company: Magalix / Weaveworks
+        time: Jan 2022 - Jun 2022
+        company: Weaveworks
         details: |
-          - Define the technical roadmap for the SRE team.
-          - Keep Magalix SaaS reliable and secure.
-          - Participate in defining incident management policies and COE.
-          - Upgrade and enhance our observability system.
-          - Lead and maintain the migration process for our infrastructure from GCP to AWS.
-          - Implement software supply chain security.
-          - Provide product feedback continuously and suggest features that would help our customers.
-          - Managed our infrastructure cost and optimized it.
-          - Inmplemented gitops using FluxCD.
+          In early 2022, Magalix has been acquired by Weaveworks.
           - Migrate Magalix infrastructure and SaaS under Weaveworks umbrella.
+          - Led and maintained the migration process for our infrastructure from GCP to AWS.
+      - role: SRE
+        time: Apr 2020 - Dec 2021
+        company: Magalix
+        details: |
+          - Run Magalix SaaS reliable and secure.
+          - Worked with the CTO for defining the technical roadmap for the SRE team.
+          - Owned sprint planning for the SRE team and contributed to overall backlog grooming and sprint planning.
+          - Managed the daily SRE standups, priortized, delegated, and reviewed tasks for a team of 2 SREs.
+          - Managed on-call rotation and wrote playbooks that help on-call engineer investigate and mitigate the issues quickly and efficint.
+          - Participate in defining incident management process and correction of error (COE).
+          - Upgraded and enhanced our observability system using prometeus, grafana, ELK and kiali to improve reliability and debuggability of our system.
+          - Led a project to reduce our infrastructure cost resulting in $36k annual saving.
+          - Secured our software supply chain using snyk, github dependancy scan, anchore and grype.
+          - Used our policy as code engine to enforce best practices and security policies.
+          - Contributed to the product roadmap with testing, validating and feedback which ended in improving our resources recommendations feature and cpu throttling detection feature.
+          - Implemented gitops using FluxCD.
+          - Automated the creation of SaaS environment using terraform, FluxCD and bash scripts.
       - role: DevOps Engineer
         time: Dec 2019 - Mar 2020
         company: Fly365
@@ -98,17 +108,18 @@ experiences:
           - Manage and monitor kubernetes clusters.
           - Monitor the application and set the proper alerts.
       - role: DevOps Engineer
-        time: Dec 2019 - Mar 2020
+        time: June 2019 - Dec 2019
         company: Jobzella
         details: |
           - Containerize the applications.
           - Full responsibility about AWS account.
       - role: DevOps Engineer
-        time: Dec 2019 - Mar 2020
-        company: Jobzella
+        time: Agu 2018 - June 2019
+        company: DXC Technology
         details: |
-          - Containerize the applications.
-          - Full responsibility about AWS account.
+          - Automated deployment using Jenkins and python scripts.
+          - Automate infrastructure creation using Terraform on AWS.
+          - Joined a team that aimed to spread DevOps culture, supervise and assist colleagues to automate their projects.
 
 skills:
     title: Technical Skills
