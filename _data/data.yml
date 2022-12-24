@@ -76,7 +76,6 @@ experiences:
         company: Weaveworks
         details: |
           - Developed a tool that provision test/demo environments on-demand easily with one command, with all needed apps installed.
-          - Implementing a centralized logging solution to collect acceptance test logs.
       - role: SRE
         time: Jan 2022 - Jun 2022
         company: Weaveworks
