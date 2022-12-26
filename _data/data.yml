@@ -76,7 +76,6 @@ experiences:
         company: Weaveworks
         details: |
           In early 2022, Magalix has been acquired by Weaveworks.
-          - Prototyped single-tenant deployment of our SaaS system for on-prem customers.
           - Led a team of 2 SREs and worked closely with the CTO and engineering team to migrate our entire SaaS system and infra from GCP to AWS on a tight timeline as part of the integration with Weaveworks.
           - Automated the provisioning of test/demo environments on-demand easily with one command, with all needed apps installed.
       - role: Site Reliability Engineer
