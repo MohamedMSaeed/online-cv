@@ -141,6 +141,11 @@ p {
       margin-bottom: 0px;
     }
   }
+  .skills-container {
+    .skill-desc {
+      color: rgba(256, 256, 256, 0.6);
+    }
+  }
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
@@ -171,7 +176,7 @@ p {
 .main-wrapper {
   grid-column: span 7;
   background: #fff;
-  padding: 60px;
+  padding: 40px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -182,7 +187,7 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,

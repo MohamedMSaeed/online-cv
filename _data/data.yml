@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      SRE with experience in managing SaaS reliably and securely, developing and designing CI/CD pipelines, containerize applications and manage them via Kubernetes, automate infrastructure provisioning on Cloud and do a lot of monitoring. I always take initiative to spread the knowledge among the colleagues, help and assist them to automate their projects.
+      SRE with experience in leading and managing SaaS system reliability and security, designing and developing CI/CD pipelines, containerize applications and manage them via Kubernetes, automating infrastructure provisioning on AWS and GCP. I am passionate about scaling systems, learning new technologies, mentoring others, and being part of a team with an ambitious mission.
 
 education:
     title: Education
@@ -71,49 +71,48 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Senior SRE
-        time: Jun 2022 - Present
-        company: Weaveworks
-        details: |
-          - Developed a tool that provision test/demo environments on-demand easily with one command, with all needed apps installed.
-      - role: SRE
-        time: Jan 2022 - Jun 2022
+      - role: Senior Site Reliability Engineer
+        time: Jan 2022 - Present
         company: Weaveworks
         details: |
           In early 2022, Magalix has been acquired by Weaveworks.
-          - Migrate Magalix infrastructure and SaaS under Weaveworks umbrella.
-          - Led and maintained the migration process for our infrastructure from GCP to AWS.
-      - role: SRE
+          - Prototyped single-tenant deployment of our SaaS system for on-prem customers.
+          - Led a team of 2 SREs and worked closely with the CTO and engineering team to migrate our entire SaaS system and infra from GCP to AWS on a tight timeline as part of the integration with Weaveworks.
+          - Automated the provisioning of test/demo environments on-demand easily with one command, with all needed apps installed.
+      - role: Site Reliability Engineer
         time: Apr 2020 - Dec 2021
         company: Magalix
         details: |
-          - Run Magalix SaaS reliable and secure.
+          - Responsible for the reliability and security of our SaaS system and infrastructure.
           - Worked with the CTO for defining the technical roadmap for the SRE team.
+          - Contributed to the product roadmap with testing, validating and feedback which ended in improving our resources recommendations feature and cpu throttling detection feature.
           - Owned sprint planning for the SRE team and contributed to overall backlog grooming and sprint planning.
           - Managed the daily SRE standups, priortized, delegated, and reviewed tasks for a team of 2 SREs.
-          - Managed on-call rotation and wrote playbooks that help on-call engineer investigate and mitigate the issues quickly and efficint.
+          - Managed on-call rotation and wrote playbooks that help on-call engineer investigating and mitigating the issues quickly and efficint.
           - Participate in defining incident management process and correction of error (COE).
           - Upgraded and enhanced our observability system using prometeus, grafana, ELK and kiali to improve reliability and debuggability of our system.
+          - Responsible for the health and operations of our deployment Kafka, Redis, MongoDB, and PostgreSQL.
           - Led a project to reduce our infrastructure cost resulting in $36k annual saving.
           - Secured our software supply chain using snyk, github dependancy scan, anchore and grype.
           - Used our policy as code engine to enforce best practices and security policies.
-          - Contributed to the product roadmap with testing, validating and feedback which ended in improving our resources recommendations feature and cpu throttling detection feature.
           - Implemented gitops using FluxCD.
           - Automated the creation of SaaS environment using terraform, FluxCD and bash scripts.
+          - Prototyped single-tenant deployment of our SaaS system for on-prem customers.
       - role: DevOps Engineer
         time: Dec 2019 - Mar 2020
         company: Fly365
         details: |
           - Manage and monitor kubernetes clusters.
           - Monitor the application and set the proper alerts.
+          - The company shutdown operations globally on March 2020.
       - role: DevOps Engineer
-        time: June 2019 - Dec 2019
+        time: Jun 2019 - Dec 2019
         company: Jobzella
         details: |
           - Containerize the applications.
           - Full responsibility about AWS account.
       - role: DevOps Engineer
-        time: Agu 2018 - June 2019
+        time: Aug 2018 - Jun 2019
         company: DXC Technology
         details: |
           - Automated deployment using Jenkins and python scripts.
@@ -124,19 +123,29 @@ skills:
     title: Technical Skills
     toolset:
       - name: Monitoring
+        details: "Prometheus, Grafana, Kiali, Cloudprober"
         level:
 
-      - name: Kubernetes
+      - name: Containers
+        details: "Docker, Kubernetes, Helm"
         level:
 
       - name: Terraform
+        details:
         level:
 
       - name: GitOps
+        details:
         level:
 
-      - name: Cloud "AWS - GCP"
+      - name: Cloud
+        details: "AWS, GCP"
         level:
 
-      - name: Jenkins - Github Actions - CircleCI
+      - name: CI/CD
+        details: Jenkins - Github Actions - CircleCI
+        level:
+      
+      - name: Manage Secrets
+        details: "Mozilla sops, AWS secrets manager"
         level:
