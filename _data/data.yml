@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      As a Senior SRE / DevOps engineer with 5+ years of experience, I excel in designing and managing the reliability and security of SaaS systems. My expertise includes automating infrastructure provisioning on AWS and GCP using Terraform, designing and developing CI/CD pipelines, containerizing applications and managing them via Docker and Kubernetes. I am proficient in monitoring systems using tools such as Prometheus and Grafana. I have strong leadership and project management skills, having successfully led a small team and managed daily standups, sprint planning, and task delegation. I always communicate technical concepts effectively to both technical and non-technical stakeholders. I am passionate about delivering innovative solutions and results.
+      As a Senior SRE / DevOps engineer with 5+ years of experience, I excel in designing and managing the reliability and security of SaaS systems. My expertise includes automating infrastructure provisioning on AWS and GCP using Terraform, designing and developing CI/CD pipelines, containerizing applications and managing them via Docker and Kubernetes. I am proficient in monitoring systems using tools such as Prometheus and Grafana. I successfully led a small team of SREs to deliver projects on time and managed daily standups, sprint planning, and task delegation. I always communicate technical concepts effectively to both technical and non-technical stakeholders. I’m passionate about delivering innovative solutions and results.
 
 education:
     title: Education
