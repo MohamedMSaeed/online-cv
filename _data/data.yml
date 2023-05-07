@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      SRE with experience in leading and managing SaaS system reliability and security, designing and developing CI/CD pipelines, containerize applications and manage them via Kubernetes, automating infrastructure provisioning on AWS and GCP. I am passionate about scaling systems, learning new technologies, mentoring others, and being part of a team with an ambitious mission.
+      As a Senior SRE / DevOps engineer with 5+ years of experience, I excel in designing and managing the reliability and security of SaaS systems. My expertise includes automating infrastructure provisioning on AWS and GCP using Terraform, designing and developing CI/CD pipelines, containerizing applications and managing them via Docker and Kubernetes. I am proficient in monitoring systems using tools such as Prometheus and Grafana. I have strong leadership and project management skills, having successfully led a small team and managed daily standups, sprint planning, and task delegation. I always communicate technical concepts effectively to both technical and non-technical stakeholders. I am passionate about delivering innovative solutions and results.
 
 education:
     title: Education
@@ -76,47 +76,50 @@ experiences:
         company: Weaveworks
         details: |
           In early 2022, Magalix has been acquired by Weaveworks.
-          - Led a team of 2 SREs and worked closely with the CTO and engineering team to migrate our entire SaaS system and infra from GCP to AWS on a tight timeline as part of the integration with Weaveworks.
-          - Automated the provisioning of test/demo environments on-demand easily with one command, with all needed apps installed.
+          - Led and managed a team of 3 SREs in the successful migration of our SaaS system and infrastructure from GCP to AWS, in collaboration with the CTO and engineering team, to support our integration with Weaveworks.
+          - Developed an automated process for provisioning on-demand test/demo environments with ease, using a single command and including all necessary applications. This helped the dev team to test feature branches more often and release features quicker than usual.
       - role: Site Reliability Engineer
         time: Apr 2020 - Dec 2021
         company: Magalix
         details: |
-          - Responsible for the reliability and security of our SaaS system and infrastructure.
-          - Worked with the CTO for defining the technical roadmap for the SRE team.
-          - Contributed to the product roadmap with testing, validating and feedback which ended in improving our resources recommendations feature and cpu throttling detection feature.
-          - Owned sprint planning for the SRE team and contributed to overall backlog grooming and sprint planning.
-          - Managed the daily SRE standups, priortized, delegated, and reviewed tasks for a team of 2 SREs.
-          - Managed on-call rotation and wrote playbooks that help on-call engineer investigating and mitigating the issues quickly and efficint.
-          - Participate in defining incident management process and correction of error (COE).
-          - Upgraded and enhanced our observability system using prometeus, grafana, ELK and kiali to improve reliability and debuggability of our system.
-          - Responsible for the health and operations of our deployment Kafka, Redis, MongoDB, and PostgreSQL.
-          - Led a project to reduce our infrastructure cost resulting in $36k annual saving.
-          - Secured our software supply chain using snyk, github dependancy scan, anchore and grype.
-          - Used our policy as code engine to enforce best practices and security policies.
-          - Implemented gitops using FluxCD.
-          - Automated the creation of SaaS environment using terraform, FluxCD and bash scripts.
-          - Prototyped single-tenant deployment of our SaaS system for on-prem customers.
+          - Improved the reliability and the security of our SaaS system and infrastructure, resulting in fewer system failures and increased data protection.
+          - Collaborated with the CTO to define the technical roadmap for the SRE team, resulting in the successful implementation of new technologies and tools to improve system performance.
+          - Contributed to product roadmap by testing, validating, and providing feedback, resulting in improvement in resources recommendations feature and improvement in CPU throttling detection feature.
+          - Owned the sprint planning for the SRE team and contributed to overall backlog grooming and sprint planning, resulting in on-time project delivery and improved team performance.
+          - Managed the daily SRE standups, prioritized tasks, and delegated responsibilities for a team of 3 SREs, resulting in increased productivity and efficiency.
+          - Managed on-call rotation and wrote playbooks that helped on-call engineers investigate and mitigate issues quickly and efficiently, resulting in reduced downtime and improved system stability.
+          - Participated in defining incident management processes and correction of errors (COE), resulting in faster incident response times and reduced system downtime.
+          - Managed and ensured the health of our kubernetes clusters.
+          - Took ownership of upgrading and enhancing the observability system using Prometheus, Grafana, ELK, and Kiali, resulting in significant improvements in system reliability and debuggability.
+          - Proactively ensured the health and operations of the deployment of Kafka, Redis, MongoDB, and PostgreSQL, resulting in significantly reduced downtime and improved system performance.
+          - Successfully led a project to reduce infrastructure cost, resulting in $36k annual savings and improved cost-efficiency for the company.
+          - Secured our software supply chain using Snyk, GitHub dependency scan, Anchore, and Gype, resulting in improved system security and reduced vulnerabilities.
+          - Enforced best practices and security policies using our policy as code engine, resulting in improved compliance and reduced risks.
+          - Implemented GitOps using FluxCD, resulting in faster and more efficient deployments.
+          - Automated the creation of SaaS environment using Terraform and Bash scripts, resulting in a 90% reduction in environment setup time.
+          - Prototyped single-tenant deployment of the SaaS system for on-prem customers, resulting in improved customer satisfaction and potential revenue growth.
       - role: DevOps Engineer
         time: Dec 2019 - Mar 2020
         company: Fly365
         details: |
-          - Manage and monitor kubernetes clusters.
-          - Monitor the application and set the proper alerts.
-          - The company shutdown operations globally on March 2020.
+          - Managed and monitored the kubernetes clusters for production, dev and testing environments.
+          - Automated the creation of system infrastructure and deploy applications using terraform and bash scripts,  resulting in reducing the environment creation time by 90%.
+          - Worked on a disaster recovery plan to ensure that our infrastructure and application could quickly recover in the event of an outage or disaster.
+          - Monitord the application and set the proper alerts.
+          The company shutdown operations globally in March 2020.
       - role: DevOps Engineer
         time: Jun 2019 - Dec 2019
         company: Jobzella
         details: |
-          - Containerize the applications.
-          - Full responsibility about AWS account.
+          - Containerized our applications using Docker, improving the portability and scalability of our system. This allowed for easier deployment across various environments.
+          - Took full responsibility for our AWS account, ensuring compliance with security best practices and optimizing our infrastructure for cost and performance. This included managing IAM policies, setting up VPCs, and implementing automated backups and disaster recovery.
       - role: DevOps Engineer
         time: Aug 2018 - Jun 2019
         company: DXC Technology
         details: |
-          - Automated deployment using Jenkins and python scripts.
-          - Automate infrastructure creation using Terraform on AWS.
-          - Joined a team that aimed to spread DevOps culture, supervise and assist colleagues to automate their projects.
+          - Automated deployment using Jenkins and Python scripts, ensuring that our software was quickly and reliably deployed to all environments including the Production. We reduced the time spent on manual deployments by over 90%.
+          - Automated infrastructure creation using Terraform on AWS, enabling us to easily create, manage, and modify environments as needed. This resulted in reducing the environment time creation by 95%.
+          - Joined a team dedicated to spreading the DevOps culture throughout the organization, supervising and assisting colleagues in automating their projects.
 
 skills:
     title: Technical Skills
