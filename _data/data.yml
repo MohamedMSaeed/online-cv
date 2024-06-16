@@ -71,8 +71,15 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: DevOps Engineer
+        time: Aug 2023 - Present
+        company: Tamara
+        details: |
+          - Led the successful migration of our infrastructure from OCI to GCP, including planning, design, and creation of the new infrastructure. Developed and implemented Terraform modules, reducing provining time for the infrastructure to couple of hours.
+          - Managed weekly production meetings, defining some key system metrics to improve observability. Analyzed these metrics to detect abnormal behaviors.
+          - Participated with the team tp optimize the alerting system by reducing noisy alerts.
       - role: Senior Site Reliability Engineer
-        time: Jan 2022 - Present
+        time: Jan 2022 - Aug 2023
         company: Weaveworks
         details: |
           In early 2022, Magalix has been acquired by Weaveworks.
